@@ -139,9 +139,22 @@
 
   <!-- Music -->
   <audio id="bgm" loop preload="auto">
-    <source src="assets/song.mp3" type="audio/mpeg" />
-  </audio>
+  <source src="assets/song.mp3" type="audio/mpeg" />
+</audio>
+
+<script>
+  const bgm = document.getElementById("bgm");
+
+  // Play music when user clicks anywhere on the page (first time only)
+  document.addEventListener("click", () => {
+    bgm.play().catch(err => {
+      console.log("Autoplay blocked:", err);
+    });
+  }, { once: true });
+</script>
+
 
   <script src="script.js"></script>
 </body>
 </html>
+
