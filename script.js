@@ -8,23 +8,23 @@ const SETTINGS = {
   DATE_INVITE_LINK: "https://calendar.google.com/", // replace with your custom link
   SONG_COUNT: "Manyyy",              // for the "songs we’ve shared" stat
  GALLERY: [
-  { src: "assets/1.jpeg", caption: "First coffee date ☕" },
-  { src: "assets/2.jpeg", caption: "Sunset walk 🌅" },
-  { src: "assets/3.jpeg", caption: "Our funniest selfie 😆" },
-  { src: "assets/4.jpeg", caption: "Movie night 🍿" },
-  { src: "assets/5.jpeg", caption: "That rainy day together 🌧️" },
-  { src: "assets/6.jpeg", caption: "Your birthday surprise 🎂" },
-  { src: "assets/7.jpeg", caption: "Beach day vibes 🏖️" },
-  { src: "assets/8.jpeg", caption: "Café hopping ☕✨" },
-  { src: "assets/9.jpeg", caption: "Festival lights 🎆" },
-  { src: "assets/10.jpeg", caption: "Goofy moments 😂" },
-  { src: "assets/11.jpeg", caption: "Late-night food run 🍜" },
-  { src: "assets/12.jpeg", caption: "Park picnic 🧺" },
-  { src: "assets/13.jpeg", caption: "Matching outfits 👕👚" },
-  { src: "assets/14.jpeg", caption: "Long drive 🚗💨" },
-  { src: "assets/15.jpeg", caption: "Snow day ❄️" },
-  { src: "assets/16.jpeg", caption: "Another sunset 🌇" },
-  { src: "assets/17.jpeg", caption: "Concert night 🎶" },
+  { src: "assets/1.jpeg", caption: "Second Date 💖" },
+  { src: "assets/2.jpeg", caption: "Pizzaa Timeee" },
+  { src: "assets/3.jpeg", caption: "Me and You sa event ni jandelll" },
+  { src: "assets/4.jpeg", caption: "You as my costumer!!!" },
+  { src: "assets/5.jpeg", caption: "Opp" },
+  { src: "assets/6.jpeg", caption: "The pimple patchhhhhhhh" },
+  { src: "assets/7.jpeg", caption: "Rawrrr" },
+  { src: "assets/8.jpeg", caption: "The UNFORGETABLE DAYYY" },
+  { src: "assets/9.jpeg", caption: "FLEXXX!!" },
+  { src: "assets/10.jpeg", caption: "Date with you againn" },
+  { src: "assets/11.jpeg", caption: "Another Dateeee 🍜" },
+  { src: "assets/12.jpeg", caption: "Ayoooo DON'T BE ANGRYYY" },
+  { src: "assets/13.jpeg", caption: "AHMM" },
+  { src: "assets/14.jpeg", caption: "Its RaIniNg TaCo!?!?!?" },
+  { src: "assets/15.jpeg", caption: "More Datesss" },
+  { src: "assets/16.jpeg", caption: "You being a princesss" },
+  { src: "assets/17.jpeg", caption: "Paliitan OHHH" },
   { src: "assets/18.jpeg", caption: "Just us ❤️" }
 ],
 
@@ -364,3 +364,4 @@ document.addEventListener("click", e => {
     $("#entryName").textContent = n;
   }
 })();
+
